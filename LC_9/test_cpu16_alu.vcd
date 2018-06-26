@@ -1,0 +1,70 @@
+$date
+	Tue Jun 12 15:56:26 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_cpu16_alu $end
+$var wire 16 ! OUT [15:0] $end
+$var reg 16 " A [15:0] $end
+$var reg 16 # B [15:0] $end
+$var reg 4 $ ICNT [3:0] $end
+$scope module cpu16_alu1 $end
+$var wire 16 % A [15:0] $end
+$var wire 16 & B [15:0] $end
+$var wire 4 ' ICNT [3:0] $end
+$var wire 16 ( OUT [15:0] $end
+$var reg 16 ) a [15:0] $end
+$var reg 16 * b [15:0] $end
+$var reg 1 + cin $end
+$var reg 16 , r [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1011 ,
+0+
+b1010 *
+b1 )
+b1011 (
+b1 '
+b1010 &
+b1 %
+b1 $
+b1010 #
+b1 "
+b1011 !
+$end
+#10
+b1001 !
+b1001 (
+b1001 ,
+1+
+b1111111111111110 *
+b1010 )
+b1 #
+b1 &
+b1010 "
+b1010 %
+b10 $
+b10 '
+#20
+b1000 !
+b1000 (
+b1000 ,
+b1010 #
+b1010 &
+b1100 "
+b1100 %
+b100 $
+b100 '
+#30
+b1110 !
+b1110 (
+b1110 ,
+b1000 $
+b1000 '

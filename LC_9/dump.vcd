@@ -1,0 +1,39 @@
+$date
+	Tue Jun 12 15:07:20 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_my_xor $end
+$var wire 1 ! out $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$scope module hoge $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 ! Y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+0"
+0!
+$end
+#10
+1!
+1"
+#20
+1#
+0"
+#30
+0!
+1"
+#40
+0#
+0"
+#50

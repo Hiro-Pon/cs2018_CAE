@@ -1,0 +1,6 @@
+module my_xor ( A, B, Y);
+    input A, B;
+    output Y;
+    
+    assign Y = A ^ B;
+endmodule

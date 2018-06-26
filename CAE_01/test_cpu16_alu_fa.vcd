@@ -1,0 +1,86 @@
+$date
+	Tue May 22 15:30:08 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_cpu16_alu_fa $end
+$var wire 1 ! R $end
+$var wire 1 " Cout $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$var reg 1 % Cin $end
+$scope module ma1 $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 % Cin $end
+$var wire 1 " Cout $end
+$var wire 1 & TR $end
+$var wire 1 ' TC2 $end
+$var wire 1 ( TC1 $end
+$var wire 1 ! R $end
+$scope module ha1 $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 ( C $end
+$var wire 1 & R $end
+$upscope $end
+$scope module ha2 $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var wire 1 ' C $end
+$var wire 1 ! R $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10
+1!
+1%
+#20
+1&
+0%
+1$
+#30
+0!
+1"
+1'
+1%
+#40
+1!
+0"
+1&
+0'
+0%
+0$
+1#
+#50
+0!
+1"
+1'
+1%
+#60
+0!
+0&
+0'
+1(
+0%
+1$
+#70
+1!
+1%
+#80
