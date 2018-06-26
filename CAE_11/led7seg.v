@@ -5,8 +5,8 @@ module led7seg (a, b, LED,SA);
 
     assign  SA = 4'bZZZ0;
     assign  LED[0] = ~a & b;
-    assign  LED[1] = 1;
-    assign  LED[2] = a & b;
+    assign  LED[1] = 1'b0;
+    assign  LED[2] = a & ~b;
     assign  LED[3] = ~a & b;
     assign  LED[4] = ~a;
     assign  LED[5] = ~a | ~b;
