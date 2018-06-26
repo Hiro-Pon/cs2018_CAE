@@ -9,7 +9,7 @@ module led7seg9 (I,LED,SA);
     assign  LED[2] = I[0] & ~I[1] &I[2] & I[3];
     assign  LED[3] = (~I[0] & I[1] &I[2] & I[3])^(I[0] & I[1] & ~I[2] & I[3])^(~I[0] & I[1] &I[2] & ~I[3]);
     assign  LED[4] = (~I[0] & I[1]) ^ (~I[0] & ~I[1]) ^ (I[0] & I[1] & ~I[2] & I[3]);
-    assign  LED[5] = (~I[0] & I[1] &I[2] & I[3]) ^ (~I[0] & ~I[1]) ^ (~I[1] & I[2] & I[3]);
-    assign  LED[6] = I[1];
+    assign  LED[5] = (~I[0] & I[1] &I[2] & I[3]) ^ (I[0] & ~I[1] & I[2] & I[3]) ^ (~I[0] & ~I[1]);
+    assign  LED[6] = (I[1] &I[2] & I[3]) ^ (~I[0] & ~I[1] & ~I[2] & I[3]);
     assign  LED[7] = 1'b1;
 endmodule
